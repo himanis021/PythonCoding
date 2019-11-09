@@ -1,0 +1,5 @@
+birthyear = input('Birth year: ')
+print(type(birthyear))
+age = 2019 - int(birthyear)   # same for float()
+print(type(age))
+print(age)
